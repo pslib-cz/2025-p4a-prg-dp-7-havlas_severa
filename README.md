@@ -84,8 +84,4 @@ Observer je jeden z nejpoužívanějších vzorů v praxi. Setkáváme se s ním
 | **Decorator** | Také „obaluje" objekt a přidává chování. | Decorator rozšiřuje **funkčnost jednoho objektu**. Observer reaguje na **změny jiného objektu** a může být přidán i odebrán za běhu. |
 | **Template Method** | Nadřazená třída volá metody, které podtřídy přepisují — podobné volání `update()`. | Template Method je **pevně daná struktura** — podtřída je předem zapsána v kódu. Observer je **dynamické propojení** — pozorovatele lze přidávat a odebírat za běhu. |
 
-**Klíčové znaky Observeru, podle kterých ho poznáme:**
-1. Existuje metoda pro **registraci a odregistraci** závislostí (`attach` / `detach` / `subscribe`).
-2. Při změně stavu se automaticky **volá metoda na všech** registrovaných objektech.
-3. Vztah je **jeden k mnoha** — jeden zdroj změny, mnoho reakcí.
-4. Předmět a pozorovatel jsou **volně svázáni** — předmět zná jen rozhraní, ne konkrétní třídy.
+
